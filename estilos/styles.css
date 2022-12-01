@@ -30,6 +30,7 @@ header{
     height: 6rem;
     min-height: 6rem;
     width: 100%;
+    z-index: 5;
 }
 
 .marcoLogo {
@@ -63,7 +64,7 @@ header{
     min-height: 6rem;
     min-width: 6rem;
     width: 6rem;
-
+z-index: 5;
 }
 
 .tituloEinformacion {
@@ -229,14 +230,17 @@ main{
 
 .pizza{
     background-image: url(../assets/piza.jpg);
+    z-index: 5;
 }
 
 .empanada{
     background-image: url(../assets/3_1523297076_a208d.jpg);
+    z-index: 5;
 }
 
 .combo{
     background-image: url(../assets/1576625928_1636234.jpg);
+    z-index: 5;
 }
 
 /* animaciones menu */
