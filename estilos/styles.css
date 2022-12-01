@@ -286,7 +286,32 @@ main {
     top: -5px;
     z-index: -1;
     font-family: 'Lato', sans-serif;
-   
+    animation: growUp .5s ease-in-out forwards;
+    transform-origin: top center;
+}
+
+.show {
+    display: block;
+    animation: growDown .5s ease-in-out forwards;
+    transform-origin:  center top;
+}
+
+@keyframes growDown{
+    0% {
+        transform: scaleY(0)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+@keyframes growUp{
+    0% {
+        transform: scaleY(1)
+    }
+    100% {
+        transform: scaleY(0)
+    }
 }
 
 .opcion li {
@@ -295,9 +320,4 @@ main {
 
 .material-icons {
     font-size: 18px;
-}
-
-.show {
-    display: block;
-    transition: 5s;
 }
