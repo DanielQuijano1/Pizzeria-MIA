@@ -17,12 +17,12 @@
 
 @font-face {
     font-family: daniel;
-    src: url(/fonts/Satisfy-Regular.ttf);
+    src: url(../fonts/Satisfy-Regular.ttf);
 }
 
 @font-face {
     font-family: australiaCustom;
-    src: url(/fonts/Australia\ Custom.ttf);
+    src: url(../fonts/Australia\ Custom.ttf);
 }
 
 /* --------------------- HEADER ---------------------------------- */
