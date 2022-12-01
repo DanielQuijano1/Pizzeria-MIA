@@ -266,7 +266,7 @@ main {
 .opcion {
     width: 100%;
     padding: 10px 20px;
-
+background-color: rgb(248, 241, 232);
     text-shadow: none;
     color: black;
     list-style-type: none;
