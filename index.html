@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzeria MIA</title>
-<!-- estilos propios -->
+    <!-- estilos google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- estilos propios -->
     <link rel="stylesheet" href="estilos/styles.css">
 </head>
 
@@ -23,10 +25,16 @@
                         Todo lo rico de la comida casera, ahora cerca de tu casa.
                     </p>
                     <p class="descripcion">
-                        Horarios de atencion: MARTES A DOMINGOS 19hs en adelante.
+                        <span class="material-icons">
+                            schedule
+                        </span>
+                        MARTES A DOMINGOS 19hs en adelante.
                     </p>
                     <p class="descripcion">
-                        Estamos en Calle 818 n°2201
+                        <span class="material-icons">
+                            location_on
+                        </span>
+                        Calle 818 n°2201
                     </p>
                 </div>
                 <div class="links">
@@ -57,19 +65,19 @@
 
     <main>
         <div class="secciones">
-            <section class="seccion">
-                <div class="seccion__etiqueta combo active">
-                    <p class="">Combos</p>
-                    <div class="opcion">
 
-                    </div>
+            <section class="seccion">
+                <div class="seccion__etiqueta combo">
+                    <p class="seccion__text">Combos</p>
                 </div>
+                    <ul class="opcion"></ul>
             </section>
+
             <section class="seccion">
                 <div class="seccion__etiqueta pizza">
-                    <p class="seccion__text">Pizzas</p> 
+                    <p class="seccion__text">Pizzas</p>
                 </div>
-                <ul class="opcion" >
+                <ul class="opcion">
                     <li>MUZZARELA</li>
                     <li>JAMON</li>
                     <li>JAMON Y MORRON</li>
@@ -88,6 +96,7 @@
                     <li>FAINA</li>
                 </ul>
             </section>
+
             <section class="seccion">
                 <div class="seccion__etiqueta empanada">
                     <p class="seccion__text">Empanadas</p>
