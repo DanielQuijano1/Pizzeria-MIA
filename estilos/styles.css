@@ -19,6 +19,8 @@
 
 body{
     background-color: antiquewhite;
+    max-width: 500px;
+    margin: auto;
 }
 
 header {
