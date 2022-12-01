@@ -48,7 +48,7 @@ header{
 
 .imgLogo {
     background-color: rgb(237, 242, 247);
-    background-image: url(../assets/3_1523297076_a208d.jpg);
+    background-image: url("../assets/3_1523297076_a208d.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
