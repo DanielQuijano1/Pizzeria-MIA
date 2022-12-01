@@ -295,4 +295,7 @@ main {
     font-size: 18px;
 }
 
-.show {display: block;}
+.show {
+    display: block;
+    transition: 5s;
+}
