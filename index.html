@@ -20,7 +20,7 @@
             <div class="marcoLogo__descripcion">
                 <div class="imgLogo"></div>
                 <div class="tituloEinformacion">
-                    <h1 class="titulo"> <em> Pizzería MIA </em></h1>
+                    <h1 class="titulo"> <em> Pizzería Mía </em></h1>
                     <p class="descripcion">
                         Todo lo rico de la comida casera, ahora cerca de tu casa.
                     </p>
@@ -49,15 +49,13 @@
                             </div>
                         </button>
                     </a>
-                    <!--
-                    <a target="_blank" rel="noopener noreferrer" href="" class="link">
+                    <a rel="noopener noreferrer" href="#" class="link">
                         <button type="button" class="boton" aria-label="Enviar mensaje por Instagram">
                             <div aria-hidden="true" focusable="false" class="iconoLink">
-                                
+                                <svg height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M17 2a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5h10m0-2H7a7 7 0 00-7 7v10a7 7 0 007 7h10a7 7 0 007-7V7a7 7 0 00-7-7z"></path><path d="M18.5 7A1.5 1.5 0 1120 5.5 1.5 1.5 0 0118.5 7zM12 8a4 4 0 11-4 4 4 4 0 014-4m0-2a6 6 0 106 6 6 6 0 00-6-6z"></path></svg>
                             </div>
                         </button>
                     </a>
-                    -->
                 </div>
             </div>
         </div>
@@ -67,17 +65,17 @@
         <div class="secciones">
 
             <section class="seccion">
-                <div class="seccion__etiqueta combo">
-                    <p class="seccion__text">Combos</p>
+                <div onclick="myFunction()" class="seccion__etiqueta combo">
+                    Combos
                 </div>
-                    <ul class="opcion"></ul>
+                    <ul id="myDropdown" class="opcion"></ul>
             </section>
 
             <section class="seccion">
-                <div class="seccion__etiqueta pizza">
-                    <p class="seccion__text">Pizzas</p>
+                <div onclick="myFunction1()" class="seccion__etiqueta pizza">
+                    Pizzas
                 </div>
-                <ul class="opcion">
+                <ul id="myDropdown1" class="opcion">
                     <li>MUZZARELA</li>
                     <li>JAMON</li>
                     <li>JAMON Y MORRON</li>
@@ -98,10 +96,10 @@
             </section>
 
             <section class="seccion">
-                <div class="seccion__etiqueta empanada">
-                    <p class="seccion__text">Empanadas</p>
+                <div onclick="myFunction2()" class="seccion__etiqueta empanada">
+                    Empanadas
                 </div>
-                <ul class="opcion">
+                <ul id="myDropdown2" class="opcion">
                     <li>CARNE</li>
                     <li>CARNE A CUCHILLO</li>
                     <li>CARNE CRIOLLA</li>
@@ -114,6 +112,10 @@
                 </ul>
             </section>
         </div>
+
+          
+<script src="scripts/script.js"></script>
+
     </main>
 
 
