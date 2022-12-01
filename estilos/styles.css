@@ -21,7 +21,7 @@ header{
 
 .imgHeader {
     background-color: rgb(0, 181, 216);
-    background-image: url(/assets/piza.jpg);
+    background-image: url(../assets/piza.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +48,7 @@ header{
 
 .imgLogo {
     background-color: rgb(237, 242, 247);
-    background-image: url(/assets/3_1523297076_a208d.jpg);
+    background-image: url(../assets/3_1523297076_a208d.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,15 +228,15 @@ main{
 }
 
 .pizza{
-    background-image: url(/assets/piza.jpg);
+    background-image: url(../assets/piza.jpg);
 }
 
 .empanada{
-    background-image: url(/assets/3_1523297076_a208d.jpg);
+    background-image: url(../assets/3_1523297076_a208d.jpg);
 }
 
 .combo{
-    background-image: url(/assets/1576625928_1636234.jpg);
+    background-image: url(../assets/1576625928_1636234.jpg);
 }
 
 /* animaciones menu */
