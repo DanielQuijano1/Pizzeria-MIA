@@ -4,6 +4,7 @@
     touch-action: manipulation;
 }
 
+
 *,
 ::before,
 ::after {
@@ -28,7 +29,7 @@
 /* --------------------- HEADER ---------------------------------- */
 
 body {
-    background-color: antiquewhite;
+    background-color: #fffae4;
     max-width: 500px;
     margin: auto;
 }
@@ -68,14 +69,14 @@ header {
 }
 
 .imgLogo {
-    background-color: antiquewhite;
+    background-color: #fffae4;
     background-image: url("../assets/3_1523297076_a208d.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border: 0px;
     border-radius: 50%;
-    box-shadow: rgb(0 0 0 / 0%) 0px 0px 2px inset, antiquewhite 0px 0px 0px 6px;
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 2px inset, #fffae4 0px 0px 0px 6px;
     flex-shrink: 0;
     grid-area: avatar / avatar / avatar / avatar;
     height: 6rem;
@@ -99,12 +100,12 @@ header {
     font-size: 2rem;
     font-weight: 900;
     line-height: normal;
-    color: rgb(236, 29, 2);
+    color: #d5483a;
 }
 
 .descripcion {
     font-family: 'Lato', sans-serif;
-    color: rgb(9, 199, 3);
+    color: #419166;
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 1.625;
