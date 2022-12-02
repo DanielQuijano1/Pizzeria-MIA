@@ -70,17 +70,14 @@ header {
 
 .imgLogo {
     background-color: #fffae4;
-    background-image: url("../assets/3_1523297076_a208d.jpg");
+    background-image: url("../assets/Logo\ MIAPIZZA.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 0px;
     border-radius: 50%;
-    box-shadow: rgb(0 0 0 / 0%) 0px 0px 2px inset, #fffae4 0px 0px 0px 6px;
-    flex-shrink: 0;
+    box-shadow: #fffae4 0px 0px 0px 6px;
     grid-area: avatar / avatar / avatar / avatar;
     height: 6rem;
-    margin-right: 0px;
     margin-top: -1.5rem;
     min-height: 6rem;
     min-width: 6rem;
