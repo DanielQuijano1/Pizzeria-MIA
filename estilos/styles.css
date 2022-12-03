@@ -79,6 +79,10 @@ header {
     background-color: #d5483a;
 }
 
+.fondoInfo{
+    background-color: antiquewhite;
+    padding: 0px 20px;
+}
 .marcoLogo__descripcion {
     display: grid;
     grid-template-areas:
@@ -119,6 +123,7 @@ header {
     font-weight: 900;
     line-height: normal;
     color: #d5483a;
+    padding-bottom: 15px;
 }
 
 .descripcion {
